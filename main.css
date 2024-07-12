@@ -1,0 +1,138 @@
+.header {
+    background-color: #23231c;
+    color: white;
+    padding: 20px;    
+}
+
+.header img {
+    width: 50px;
+    height: 50px;
+}
+
+.small-icon {
+    width: 40px !important; /* 根据需要调整大小 */
+    height: 40px !important; /* 根据需要调整大小 */
+}
+
+a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.row .col :hover{
+    color:rgb(251, 0, 255);
+}
+
+.custom-link :hover {
+    background-color: black;
+    color: white;
+}
+
+.bg-deepgray{
+    background: #1d1d1d;
+}
+
+.mouseOver{
+    transition: all .2s linear;
+}
+.mouseOver:hover{
+    color: #000000;
+    background-color: #909090;
+}
+
+.mouseOverReg{
+    transition: all .2s linear;
+}
+.mouseOverReg:hover{
+    color: #ffffff !important;
+    background-color: #b76a6a;
+}
+
+.pagination .page-link {
+    color: black;
+}
+
+/* 将分页导航的背景颜色设置为白色 */
+.pagination .page-item.active .page-link {
+    background-color: rgb(33, 33, 33);
+    color: #ffffff;
+    border-color: rgb(0, 0, 0); /* 可选：如果想要边框也为黑色 */
+}
+
+.btn-primary {
+    background-color: rgb(212, 163, 37);
+}
+
+.cart-btn {
+    position: fixed;
+    bottom: 20px ;
+    right: 20px ;
+    z-index: 9999 ;
+}
+
+.cart-btn img {
+    width: 40px;
+}
+
+
+.product {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.product img {
+    max-width: 200px;
+    margin-right: 10px;
+}
+
+.back{
+    width: 50px;
+    height: 50px;
+}
+
+.dtaccount{
+    position: absolute;
+    top: 405px;
+    left: 300px;
+    width: 100px;
+    height: 40px;
+}
+
+.bg-orange {
+    background-color: rgb(255, 77, 0);
+}
+
+.bg-purple {
+    background-color: purple;
+}
+
+.bg-greenn {
+    background-color: #90b540;
+}
+
+.chteammb {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.chteammb img {
+    max-width: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.chteammb span {
+    margin-right: 10px;
+}
+.chteammb button {
+    margin-left: auto; /* 将按钮推到最右边 */
+}
+
+.user-card {
+    z-index: 1050; /* 这个值可以根据需要调整，只要高于轮播图即可 */
+}
